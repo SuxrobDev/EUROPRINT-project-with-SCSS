@@ -1,0 +1,299 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-position: center;
+  background-color: black;
+  vertical-align: middle;
+}
+.icon-right {
+  mask-image: url("../Images/right.svg");
+  -webkit-mask-image: url("../Images/right.svg");
+  background-color: white;
+}
+.icon-phone {
+  mask-image: url("../Images/phone.svg");
+  -webkit-mask-image: url("../Images/phone.svg");
+}
+.icon-li {
+  mask-image: url("../Images/li.svg");
+  -webkit-mask-image: url("../Images/li.svg");
+  width: 8px;
+  height: 12px;
+  background-color: #F26522;;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  nav {
+    height: 13vh;
+    .navbar-brand {
+
+    }
+    button {
+
+    }
+    .collapse {
+      padding-left: 16%;
+      ul {
+        .nav-item {
+          padding: 0;
+          &:active {
+            border-bottom: 2px solid #F26522;
+            transition: 0.3s;
+          }
+          &:hover {
+            border-bottom: 2px solid #F26522;
+            transition: 0.3s;
+          }
+          a {
+
+          }
+        }
+        .nav-item:nth-child(1) {
+          margin-right: 51px;
+        }
+        .nav-item:nth-child(2) {
+          margin-right: 46px;
+        }
+        .nav-item:nth-child(3) {
+          margin-right: 40px;
+        }
+        .nav-item:nth-child(4) {
+          margin-right: 40px;
+        }
+        .nav-item:nth-child(5) {
+          margin-right: 40px;
+        }
+        .nav-item:nth-child(6) {
+          margin-right: 40px;
+        }
+        .dropdown {
+          border: 1px solid  rgba(0 , 0, 0, .2);
+          box-sizing: border-box;
+          border-radius: 100px;
+          padding: 0;
+          .nav-link {
+
+          }
+          .dropdown-menu {
+            .dropdown-item {
+
+            }
+          }
+        }
+      }
+    }
+  }
+  .mt-5 {
+    .container {
+      .row {
+        .info {
+          margin-top: 8%;
+          .simple {
+            font-weight: 300;
+            font-size: 41px;
+            line-height: 41px;
+            color: #131A22;
+
+          }
+          .bold {
+            font-weight: 900;
+            font-size: 41px;
+            line-height: 41px;
+            color: #131A22;
+          }
+          .btn {
+            color: white;
+            width: 228px;
+            height: 46px;
+            background: #F26522;
+            border-radius: 100px;
+            padding: 0;
+            &:hover {
+              background-color: #131A22;
+              transition: 1s;
+            }
+          }
+        }
+        .brand-image {
+          .carousel {
+            ol {
+              li {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: black;
+                opacity: 0.5;
+                &:active {
+                  opacity: 1;
+                }
+                &:hover {
+                  opacity: 1;
+                }
+              }
+            }
+            .carousel-inner {
+              .carousel-item {
+
+              }
+            }
+          }
+
+        }
+        .mt-5 {
+          .row {
+            .col {
+              .d-flex {
+                .icon {
+                  width: 15.5px;
+                  height: 15.5px;
+                }
+                .code {
+                  font-size: 13px;
+                  line-height: 16px;
+                  color: #131A22;
+                  padding-left: 5%;
+                  margin-bottom: 4%;
+                }
+              }
+              .number {
+                font-weight: 500;
+                font-size: 41px;
+                line-height: 41px;
+                color: #131A22;
+                padding-left: 10%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .back {
+    background-image: url("../Images/yellow.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    .about-us {
+      padding-top: 150px;
+      padding-bottom: 150px;
+      .container {
+        .row {
+          .text {
+            h4 {
+              font-size: 42px;
+              line-height: 50px;
+              color: #131A22;
+              font-weight: 700;
+              margin-bottom: 39px;
+            }
+            p {
+              padding-left: 0;
+              color: #131A22;
+            }
+            ul {
+              padding-left: 0;
+              li {
+                list-style-type: none;
+                color: #131A22;
+                font-size: 17px;
+                line-height: 25px;
+                font-weight: 600;
+              }
+            }
+          }
+          .bg {
+            background-image: url("../Images/bg.png");
+            background-repeat: no-repeat;
+            background-position: bottom center;
+          }
+        }
+      }
+    }
+  }
+  .why-we {
+    background-image: url("../Images/catalog.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+    .container {
+      .text {
+        margin-bottom: 50px;
+        h4 {
+          font-size: 50px;
+          line-height: 60px;
+          font-weight: 700;
+        }
+      }
+      .columns {
+        .col-lg-4 {
+          margin-bottom: 50px;
+          .card {
+            .card-body {
+              img {
+                transform: translateY(-50px);
+                margin: 0;
+                padding: 0;
+              }
+              h6 {
+                font-size: 24px;
+                line-height: 24px;
+                top: 80px;
+              }
+              p {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .services {
+    background-image: url("../Images/service.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    .bg {
+      background-image: url("../Images/service-2.png");
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      padding-bottom: 128px;
+      .container {
+        .our-services {
+          h4 {
+            font-size: 50px;
+            line-height: 60px;
+            padding-top: 30px;
+            padding-bottom: 48px;
+          }
+        }
+
+        .pictures {
+          .col-lg-3 {
+            padding: 11px 14px;
+            .card {
+              img {
+
+              }
+              .cart-hover {
+                ul {
+                  li {
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
